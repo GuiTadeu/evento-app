@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: br.com.eventoapp.eventoapp.EventoappApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.162 s - in br.com.eventoapp.eventoapp.EventoappApplicationTests
