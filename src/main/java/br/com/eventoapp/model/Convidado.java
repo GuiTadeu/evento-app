@@ -3,11 +3,14 @@ package br.com.eventoapp.model;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
+import javax.validation.constraints.NotEmpty;
 
 @Entity
 public class Convidado {
 	
-	@Id private String rg;
+	@Id 
+	@NotEmpty
+	private String rg;
 	@ManyToOne private Evento evento;
 	
 	private String nome;
